@@ -1,0 +1,26 @@
+<!-- index.html for 10.A-assignment (Axios and Vue) -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 10.A Axios and Vue</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <link rel="shortcut icon" href="/images/favicon.ico">
+</head>
+
+<body>
+  <h1><em>Golden Girls</em> episodes, Season 7 (1991-92)</h1>
+  <p>Episode data provided by www.tvmaze.com</p>
+  <div id="goldenApp">
+    <show-episode v-bind:episode="episode" v-for="episode in episodes">
+    </show-episode>
+  </div>
+
+  <script src="10.A-assignment.js"></script>
+
+</body>
+</html>
