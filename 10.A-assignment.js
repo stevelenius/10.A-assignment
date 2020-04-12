@@ -20,7 +20,7 @@ Vue.component('show-episode', {
   props: ['episode'],
 });
 
-var baseURL = "http://api.tvmaze.com/shows/722"
+var baseURL = "https://api.tvmaze.com/shows/722"
 const vm = new Vue({
   el: "#goldenApp",
   data: {
